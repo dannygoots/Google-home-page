@@ -7,13 +7,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-/*body {
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-}*/
 
 .navbar {
   padding: 25px;
@@ -93,23 +86,32 @@ a:hover {
   border-color: #ece5e5;
 }
 
-#footer {
+
+#footer-ul {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(0,0,0,.08);
+  background-color: rgba(0,0,0,.04);
   color: white;
   text-align: center;
-  display: grid;
   padding-top: 15px;
   padding-left: 10px;
   padding-bottom: 15px;
-  grid-template-columns: 85px 110px 140px 800px 10px 50px 50px;
-  grid-column-gap: 10px;
+  padding-right: 15px;
 }
 
-.footstuff {
+.footstuff-li {
   opacity: 60%;
   font-size: 14px;
+}
+
+.left-footer {
+  float:left;
+  padding-left: 30px;
+}
+
+.right-footer {
+  float:right;
+  padding-right: 30px;
 }
